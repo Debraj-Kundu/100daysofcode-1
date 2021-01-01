@@ -99,3 +99,4 @@ let user = makeUser('abc', 10);
 console.log(user);
 console.log("age" in user);
 console.log("food" in user);
+
