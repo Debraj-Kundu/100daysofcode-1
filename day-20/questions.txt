@@ -1,0 +1,9 @@
+#1 Find duplicates in an array => (increment arr[i]%n index by n and check if arr[i]/n > 1)
+link: https://practice.geeksforgeeks.org/problems/find-duplicates-in-an-array/1#
+
+#2 Missing number in array
+link: https://practice.geeksforgeeks.org/problems/missing-number-in-array1416/1#
+
+#3 Rotate Array (3*reverse)
+link: https://practice.geeksforgeeks.org/problems/rotate-array-by-n-elements/0#
+
