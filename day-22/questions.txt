@@ -1,0 +1,10 @@
+#1 Two stack in 1 array
+link: https://practice.geeksforgeeks.org/problems/implement-two-stacks-in-an-array/1#
+
+#2 min val in bst
+link: https://practice.geeksforgeeks.org/problems/minimum-element-in-bst/1#
+
+#3 height of binary tree
+
+#4 kth largest in bst (redo required)
+link: https://practice.geeksforgeeks.org/problems/kth-largest-element-in-bst/1#
