@@ -1,0 +1,8 @@
+#1 BSF
+link: https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1#
+
+#2 DFS
+link: https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1#
+
+#3
+link: 
