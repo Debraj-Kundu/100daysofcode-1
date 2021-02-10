@@ -28,6 +28,24 @@ public:
     unordered_map<int, bool> visited;
     dfsHelper(src, visited);
   }
+
+  void bfs(int src){
+    unordered_map<int, bool> visited;
+    queue<int> q;
+    q.push(src);
+    while(!q.empty()){
+      int front = q.front();q.pop();
+      if(!visited[front]){
+        cout << front << "->";
+        visited[front] = true;
+      }
+      for(auto x:adj[front]){
+        if(!visited[x]){
+          q.push(x);
+        }
+      }
+    }
+  }
 };
 
 int main(){
@@ -36,14 +54,14 @@ int main(){
   g.add_edge(1, 2);
   g.add_edge(1, 3);
   g.add_edge(4, 2);
+  g.add_edge(2, 4);
   g.add_edge(2, 5);
   g.add_edge(3, 5);
   g.add_edge(4, 5);
   g.add_edge(4, 5);
   g.add_edge(4, 6);
   g.add_edge(5, 6);
-  g.add_edge(6, 4);
-  g.dfs(1);
+  g.bfs(1);
 
   return 0;
 }
