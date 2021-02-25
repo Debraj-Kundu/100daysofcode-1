@@ -10,5 +10,6 @@
     "vector": "cpp",
     "forward_list": "cpp",
     "new": "cpp"
-  }
+  },
+  "git.ignoreLimitWarning": true
 }
